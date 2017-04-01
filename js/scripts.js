@@ -2,8 +2,8 @@
 var premiumToppings = [];
 var toppings = [];
 var sizePrice;
-var premiumPrice;
-var toppingPrice;
+var premiumPrice = 0;
+var toppingPrice = 0;
 var pizzaPrice;
 
 function Pizza(size,sauce,extra,premiums,tops) {
@@ -79,16 +79,15 @@ $(document).ready(function () {
     //displaying the price of the user's pizza
     $("#totalPrice").text(pizzaPrice.toFixed(2));
 
-
 // console.log(size);
 // console.log(sauce);
 // console.log(extra);
 // console.log(premiumPrice);
 // console.log(toppingPrice);
 // console.log(yourPizza);
-console.log(sizePrice);
-console.log(premiumPrice);
-console.log(toppingPrice);
+// console.log(sizePrice);
+// console.log(premiumPrice);
+// console.log(toppingPrice);
 
   });
 });
