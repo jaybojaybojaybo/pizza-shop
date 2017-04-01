@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jQuery-3.2.0.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Pizza Shop</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Jaybo's Online Pizza</h2>
+      </div>
+      <form id="pizzaOptions">
+        <div class="form-group">
+          <div class="container">
+            <p>Which size pizza would you like?</p>
+            <input type="radio" name="size" value="personal">Personal - 8 inch <br>
+            <input type="radio" name="size" value="medium">Medium - 12 inch </br>
+            <input type="radio" name="size" value="large">Large - 16 inch </br>
+            <input type="radio" name="size" value="jaybo">JAYBO - 22 INCH </br>
+          </div>
+          <br><br>
+          <div class="container">
+            <p>What kind of sauce would you like?</p>
+            <input type="radio" name="sauce" value="marinara">Marinara <br>
+            <input type="radio" name="sauce" value="white-garlic">White Garlic </br>
+            <input type="radio" name="sauce" value="mediterranean">Mediterranean </br>
+            <input type="checkbox" name="extra" value="extra-sauce">Extra Sauce?</br>
+          </div>
+          <br><br>
+          <div class="container">
+            <p>Select Your Toppings - First is free!</p>
+            <div class="row">
+              <div class="col-xs-4">
+                <p>Carnivorous - $3.00 each</p>
+                <input type="checkbox" name="premium" value="pepperoni">Pepperoni</br>
+                <input type="checkbox" name="premium" value="sausage">Sausage</br>
+                <input type="checkbox" name="premium" value="ham">Ham</br>
+                <input type="checkbox" name="premium" value="bacon">Bacon</br>
+                <input type="checkbox" name="premium" value="chicken">Chicken</br>
+              </div>
+              <div class="col-xs-4">
+                <p>Herbivorous - $1.50 each<p>
+                <input type="checkbox" name="topping" value="olive">Olive</br>
+                <input type="checkbox" name="topping" value="mushroom">Mushroom</br>
+                <input type="checkbox" name="topping" value="onion">Onion</br>
+                <input type="checkbox" name="topping" value="pepper">Pepper</br>
+                <input type="checkbox" name="topping" value="pepperoncini">Pepperoncini</br>
+                <input type="checkbox" name="topping" value="spinach">Spinach</br>
+                <input type="checkbox" name="topping" value="pineapple">Pineapple</br>
+              </div>
+              <div class="col-xs-4">
+                <p>Pesca Ovo Lacto - $1.50 each</p>
+                <input type="checkbox" name="topping" value="cheese">Extra Cheese</br>
+                <input type="checkbox" name="topping" value="anchovy">Anchovy</br>
+                <input type="checkbox" name="topping" value="swiss">Swiss Cheese</br>
+                <input type="checkbox" name="topping" value="romano">Romano</br>
+                <input type="checkbox" name="topping" value="parmagiane">Parmagiane</br>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+  </body>
+</html>
