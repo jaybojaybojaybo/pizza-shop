@@ -16,10 +16,10 @@
         <div class="form-group">
           <div class="container">
             <p>Which size pizza would you like?</p>
-            <input type="radio" name="size" value="Personal">Personal - 8 inch <br>
-            <input type="radio" name="size" value="Medium">Medium - 12 inch </br>
-            <input type="radio" name="size" value="Large">Large - 16 inch </br>
-            <input type="radio" name="size" value="Jaybo">JAYBO - 22 INCH </br>
+            <input type="radio" name="size" value="Personal">Personal - 8 inch - $8.00<br>
+            <input type="radio" name="size" value="Medium">Medium - 12 inch - $12.00</br>
+            <input type="radio" name="size" value="Large">Large - 16 inch - $16.00</br>
+            <input type="radio" name="size" value="Jaybo">JAYBO - 22 INCH - $20.00</br>
           </div>
           <br><br>
           <div class="container">
@@ -62,14 +62,13 @@
             </div>
           </div>
         </div>
-        <div class="container">
-          <h3 id="pizza-total">Current Total: $ <span id="currentTotal"></span></h3>
         <button type="submit" id="pizzaReady" class="btn btn-success">Submit Order!</button>
       </form>
       <div class="container" id="confirmation">
         <h2>Your Pizza:</h2>
         <p id="yourPizza"><span id="pizzaSize"></span> pie with <span id="pizzaExtraSauce"></span><span id="pizzaSauce"></span> sauce, topped with:</p>
         <ul id="pizzaToppings"></ul>
+        <p id="Total">Your Total: $ <span id="totalPrice"></span></p>
         <button type="submit" id="confirmPizza" class="btn btn-success">Confirm</button>
       </div>
     </div>
