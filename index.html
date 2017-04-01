@@ -16,10 +16,10 @@
         <div class="form-group">
           <div class="container">
             <p>Which size pizza would you like?</p>
-            <input type="radio" name="size" value="personal">Personal - 8 inch <br>
-            <input type="radio" name="size" value="medium">Medium - 12 inch </br>
-            <input type="radio" name="size" value="large">Large - 16 inch </br>
-            <input type="radio" name="size" value="jaybo">JAYBO - 22 INCH </br>
+            <input type="radio" name="size" value="Personal">Personal - 8 inch <br>
+            <input type="radio" name="size" value="Medium">Medium - 12 inch </br>
+            <input type="radio" name="size" value="Large">Large - 16 inch </br>
+            <input type="radio" name="size" value="Jaybo">JAYBO - 22 INCH </br>
           </div>
           <br><br>
           <div class="container">
@@ -27,7 +27,7 @@
             <input type="radio" name="sauce" value="marinara">Marinara <br>
             <input type="radio" name="sauce" value="white-garlic">White Garlic </br>
             <input type="radio" name="sauce" value="mediterranean">Mediterranean </br>
-            <input type="checkbox" name="extra" value="extra-sauce">Extra Sauce?</br>
+            <input type="checkbox" name="extra" value="extra">Extra Sauce?</br>
           </div>
           <br><br>
           <div class="container">
@@ -53,7 +53,7 @@
               </div>
               <div class="col-xs-4">
                 <p>Pesca Ovo Lacto - $1.50 each</p>
-                <input type="checkbox" name="topping" value="cheese">Extra Cheese</br>
+                <input type="checkbox" name="topping" value="extra cheese">Extra Cheese</br>
                 <input type="checkbox" name="topping" value="anchovy">Anchovy</br>
                 <input type="checkbox" name="topping" value="swiss">Swiss Cheese</br>
                 <input type="checkbox" name="topping" value="romano">Romano</br>
@@ -66,6 +66,12 @@
           <h3 id="pizza-total">Current Total: $ <span id="currentTotal"></span></h3>
         <button type="submit" id="pizzaReady" class="btn btn-success">Submit Order!</button>
       </form>
+      <div class="container" id="confirmation">
+        <h2>Your Pizza:</h2>
+        <p id="yourPizza"><span id="pizzaSize"></span> pie with <span id="pizzaExtraSauce"></span><span id="pizzaSauce"></span> sauce, topped with:</p>
+        <ul id="pizzaToppings"></ul>
+        <button type="submit" id="confirmPizza" class="btn btn-success">Confirm</button>
+      </div>
     </div>
   </body>
 </html>
