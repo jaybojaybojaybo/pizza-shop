@@ -1,3 +1,11 @@
 #confirmation {
   display: none;
 }
+
+.jumbotron {
+  background-color: black;
+  font-family: 'Lobster';
+  text-align: center;
+  color: skyblue;
+  font-size: 72px;
+}
